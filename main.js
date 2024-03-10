@@ -1,7 +1,7 @@
 /*==========  toggle icon navbar  ========*/
 
 
-let nenuIcon = document.querySelector('#menu-icon');
+let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
@@ -28,4 +28,19 @@ window.onscroll = () => {
             })
         }
     })
-}
+
+/*==========  sticky navbar  ========*/
+
+
+let header = document.querySelector('header');
+header.classList.toggle('sticky', window.scrollY > 100);
+
+
+/*==========  remove toggle icon and remove  ========*/
+
+menuIcon.classList.remove('fa-xmark');
+navbar.classList.remove('active');
+
+
+};
+
