@@ -60,10 +60,10 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*==========  typed js  ========*/
 
-// const typed = new Typed('.multiple-text', {
-//     strings: ['Fronted Developer', 'Web Designer', 'Influencer' ],
-//     typeSpeed: 70,
-//     backSpeed: 70,
-//     backDelay: 1000,
-//     loop: true,
-// });
+const typed = new Typed('.multiple-text', {
+    strings: ['Fronted Developer', 'Web Designer', 'Influencer' ],
+    typeSpeed: 70,
+    backSpeed: 70,
+    backDelay: 1000,
+    loop: true,
+});
